@@ -1,0 +1,1677 @@
+root> show interfaces
+Physical interface: vcp-255/2/0, Enabled, Physical link is Up
+  Interface index: 67, SNMP ifIndex: 222
+  Type: 105, Link-level type: 70, MTU: 1514, Speed: 16000mbps
+  Device flags   : Present Running
+  Link type      : Full-Duplex
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 52184569
+    Output packets: 52335992
+
+  Logical interface vcp-255/2/0.32768 (Index 4) (SNMP ifIndex 223)
+    Flags: Encapsulation: Unspecified
+    Input packets : 52184569
+    Output packets: 52335992
+
+Physical interface: vcp-255/2/1, Enabled, Physical link is Up
+  Interface index: 68, SNMP ifIndex: 224
+  Type: 105, Link-level type: 70, MTU: 1514, Speed: 16000mbps
+  Device flags   : Present Running
+  Link type      : Full-Duplex
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 66825158
+    Output packets: 66826947
+
+  Logical interface vcp-255/2/1.32768 (Index 5) (SNMP ifIndex 225)
+    Flags: Encapsulation: Unspecified
+    Input packets : 66825158
+    Output packets: 66826947
+
+Physical interface: vcp-255/2/2, Enabled, Physical link is Up
+  Interface index: 69, SNMP ifIndex: 226
+  Type: 105, Link-level type: 70, MTU: 1514, Speed: 16000mbps
+  Device flags   : Present Running
+  Link type      : Full-Duplex
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 70223967
+    Output packets: 49334404
+
+  Logical interface vcp-255/2/2.32768 (Index 6) (SNMP ifIndex 227)
+    Flags: Encapsulation: Unspecified
+    Input packets : 70223967
+    Output packets: 49334404
+
+Physical interface: vcp-255/2/3, Enabled, Physical link is Up
+  Interface index: 70, SNMP ifIndex: 228
+  Type: 105, Link-level type: 70, MTU: 1514, Speed: 16000mbps
+  Device flags   : Present Running
+  Link type      : Full-Duplex
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 49432463
+    Output packets: 70448475
+
+  Logical interface vcp-255/2/3.32768 (Index 7) (SNMP ifIndex 229)
+    Flags: Encapsulation: Unspecified
+    Input packets : 49432463
+    Output packets: 70448475
+
+Physical interface: xe-0/0/1, Enabled, Physical link is Up
+  Interface index: 165, SNMP ifIndex: 648
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:44, Hardware address: 44:aa:50:2e:bd:44
+  Last flapped   : 2020-08-01 08:54:07 UTC (19w3d 07:46 ago)
+  Input rate     : 16196792 bps (282 pps)
+  Output rate    : 226488 bps (296 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/1.0 (Index 101) (SNMP ifIndex 649)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 51395
+    Output packets: 32553032
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/2, Enabled, Physical link is Up
+  Interface index: 167, SNMP ifIndex: 506
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:45, Hardware address: 44:aa:50:2e:bd:45
+  Last flapped   : 2020-08-01 08:02:34 UTC (19w3d 08:38 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 70128 bps (111 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/2.0 (Index 103) (SNMP ifIndex 507)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 402730
+    Output packets: 32553389
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/3, Enabled, Physical link is Up
+  Interface index: 247, SNMP ifIndex: 508
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:46, Hardware address: 44:aa:50:2e:bd:46
+  Last flapped   : 2019-08-27 14:16:54 UTC (68w0d 02:23 ago)
+  Input rate     : 4645160 bps (465 pps)
+  Output rate    : 229424 bps (307 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/3.0 (Index 108) (SNMP ifIndex 511)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 139238
+    Output packets: 32549766
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/4, Enabled, Physical link is Up
+  Interface index: 246, SNMP ifIndex: 509
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:47, Hardware address: 44:aa:50:2e:bd:47
+  Last flapped   : 2019-08-17 19:02:00 UTC (69w2d 21:38 ago)
+  Input rate     : 7224 bps (3 pps)
+  Output rate    : 75584 bps (114 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/4.0 (Index 100) (SNMP ifIndex 512)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 3814237
+    Output packets: 32550224
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/5, Enabled, Physical link is Up
+  Interface index: 176, SNMP ifIndex: 510
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:48, Hardware address: 44:aa:50:2e:bd:48
+  Last flapped   : 2019-08-17 18:58:55 UTC (69w2d 21:41 ago)
+  Input rate     : 651640 bps (45 pps)
+  Output rate    : 96312 bps (143 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/5.0 (Index 110) (SNMP ifIndex 513)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 2647841
+    Output packets: 32553047
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/6, Enabled, Physical link is Up
+  Interface index: 179, SNMP ifIndex: 514
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:49, Hardware address: 44:aa:50:2e:bd:49
+  Last flapped   : 2020-11-13 12:39:38 UTC (4w4d 04:01 ago)
+  Input rate     : 1738992 bps (542 pps)
+  Output rate    : 68746488 bps (1295 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/6.0 (Index 113) (SNMP ifIndex 517)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 2036537
+    Output packets: 32553087
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/7, Enabled, Physical link is Up
+  Interface index: 182, SNMP ifIndex: 515
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:4a, Hardware address: 44:aa:50:2e:bd:4a
+  Last flapped   : 2020-11-12 20:59:13 UTC (4w4d 19:41 ago)
+  Input rate     : 56820472 bps (1480 pps)
+  Output rate    : 14170168 bps (1475 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/7.0 (Index 85) (SNMP ifIndex 518)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 4225871
+    Output packets: 32553521
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/8, Enabled, Physical link is Up
+  Interface index: 186, SNMP ifIndex: 516
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:4b, Hardware address: 44:aa:50:2e:bd:4b
+  Last flapped   : 2020-11-12 19:27:44 UTC (4w4d 21:13 ago)
+  Input rate     : 3550992 bps (901 pps)
+  Output rate    : 21966744 bps (2206 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/8.0 (Index 81) (SNMP ifIndex 519)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 53573846
+    Output packets: 32552802
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/9, Enabled, Physical link is Up
+  Interface index: 190, SNMP ifIndex: 520
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:4c, Hardware address: 44:aa:50:2e:bd:4c
+  Last flapped   : 2020-11-12 18:38:46 UTC (4w4d 22:02 ago)
+  Input rate     : 74148624 bps (8996 pps)
+  Output rate    : 79456272 bps (10474 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/9.0 (Index 119) (SNMP ifIndex 521)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1946788
+    Output packets: 32553451
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/10, Enabled, Physical link is Up
+  Interface index: 192, SNMP ifIndex: 505
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:4d, Hardware address: 44:aa:50:2e:bd:4d
+  Last flapped   : 2020-11-12 16:19:36 UTC (4w5d 00:21 ago)
+  Input rate     : 22937920 bps (1335 pps)
+  Output rate    : 41308696 bps (1616 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/10.0 (Index 83) (SNMP ifIndex 523)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 2078984
+    Output packets: 32552952
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-0/0/11, Enabled, Physical link is Up
+  Interface index: 250, SNMP ifIndex: 524
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:4e, Hardware address: 44:aa:50:2e:bd:4e
+  Last flapped   : 2019-10-29 17:08:02 UTC (58w6d 23:32 ago)
+  Input rate     : 4696 bps (5 pps)
+  Output rate    : 73048 bps (114 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/11.0 (Index 133) (SNMP ifIndex 527)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 6107
+    Output packets: 24620039
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: ge-0/0/28, Enabled, Physical link is Up
+  Interface index: 252, SNMP ifIndex: 687
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 1000mbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:5f, Hardware address: 44:aa:50:2e:bd:5f
+  Last flapped   : 2019-10-31 15:43:28 UTC (58w5d 00:57 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 67184 bps (108 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-0/0/28.0 (Index 115) (SNMP ifIndex 688)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 630633
+    Output packets: 22046818
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: ge-0/0/29, Enabled, Physical link is Up
+  Interface index: 130, SNMP ifIndex: 635
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 1000mbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:60, Hardware address: 44:aa:50:2e:bd:60
+  Last flapped   : 2020-10-31 15:37:20 UTC (6w3d 01:03 ago)
+  Input rate     : 37619224 bps (12464 pps)
+  Output rate    : 69263016 bps (13123 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-0/0/29.0 (Index 132) (SNMP ifIndex 684)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 147885585
+    Output packets: 47047529
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: xe-0/1/0, Enabled, Physical link is Up
+  Interface index: 257, SNMP ifIndex: 689
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:63, Hardware address: 44:aa:50:2e:bd:63
+  Last flapped   : 2020-12-15 13:52:08 UTC (02:48:38 ago)
+  Input rate     : 826632 bps (77 pps)
+  Output rate    : 64864 bps (106 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/1/0.0 (Index 102) (SNMP ifIndex 696)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 5523
+    Output packets: 2766
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: xe-0/1/1, Enabled, Physical link is Up
+  Interface index: 258, SNMP ifIndex: 690
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:64, Hardware address: 44:aa:50:2e:bd:64
+  Last flapped   : 2020-12-15 13:52:08 UTC (02:48:38 ago)
+  Input rate     : 68232 bps (109 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/1/1.0 (Index 122) (SNMP ifIndex 698)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 5227
+    Output packets: 519
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: xe-0/1/2, Enabled, Physical link is Up
+  Interface index: 259, SNMP ifIndex: 691
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:65, Hardware address: 44:aa:50:2e:bd:65
+  Last flapped   : 2020-12-15 13:52:08 UTC (02:48:39 ago)
+  Input rate     : 68232 bps (109 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/1/2.0 (Index 135) (SNMP ifIndex 699)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 5227
+    Output packets: 515
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: xe-0/1/3, Enabled, Physical link is Up
+  Interface index: 260, SNMP ifIndex: 692
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:bd:66, Hardware address: 44:aa:50:2e:bd:66
+  Last flapped   : 2020-12-15 13:52:08 UTC (02:48:39 ago)
+  Input rate     : 68232 bps (109 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/1/3.0 (Index 136) (SNMP ifIndex 700)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 5227
+    Output packets: 516
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: xe-1/0/1, Enabled, Physical link is Up
+  Interface index: 228, SNMP ifIndex: 530
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:84, Hardware address: 84:b5:9c:37:15:84
+  Last flapped   : 2020-12-06 10:42:11 UTC (1w2d 05:58 ago)
+  Input rate     : 18442576 bps (3293 pps)
+  Output rate    : 10237304 bps (2985 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/1.0 (Index 87) (SNMP ifIndex 583)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 130736973
+    Output packets: 41527130
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/2, Enabled, Physical link is Up
+  Interface index: 227, SNMP ifIndex: 531
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:85, Hardware address: 84:b5:9c:37:15:85
+  Last flapped   : 2019-11-11 13:15:28 UTC (57w1d 03:25 ago)
+  Input rate     : 50483408 bps (5760 pps)
+  Output rate    : 12240320 bps (3922 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/2.0 (Index 90) (SNMP ifIndex 584)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 120123463
+    Output packets: 38954217
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/3, Enabled, Physical link is Up
+  Interface index: 256, SNMP ifIndex: 532
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:86, Hardware address: 84:b5:9c:37:15:86
+  Last flapped   : 2019-11-03 21:23:19 UTC (58w1d 19:17 ago)
+  Input rate     : 20939528 bps (2510 pps)
+  Output rate    : 1682712 bps (1689 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/3.0 (Index 77) (SNMP ifIndex 585)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 79352890
+    Output packets: 54984441
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/4, Enabled, Physical link is Up
+  Interface index: 230, SNMP ifIndex: 533
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:87, Hardware address: 84:b5:9c:37:15:87
+  Last flapped   : 2019-11-15 11:29:29 UTC (56w4d 05:11 ago)
+  Input rate     : 319824 bps (48 pps)
+  Output rate    : 79976 bps (109 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/4.0 (Index 89) (SNMP ifIndex 586)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 2003930
+    Output packets: 32555012
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/5, Enabled, Physical link is Up
+  Interface index: 224, SNMP ifIndex: 534
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:88, Hardware address: 84:b5:9c:37:15:88
+  Last flapped   : 2019-11-28 11:41:45 UTC (54w5d 04:59 ago)
+  Input rate     : 27101616 bps (6982 pps)
+  Output rate    : 587600064 bps (51238 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/5.0 (Index 95) (SNMP ifIndex 587)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 94659974
+    Output packets: 33912009
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/6, Enabled, Physical link is Up
+  Interface index: 223, SNMP ifIndex: 611
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:89, Hardware address: 84:b5:9c:37:15:89
+  Last flapped   : 2019-10-29 17:28:37 UTC (58w6d 23:12 ago)
+  Input rate     : 421896 bps (79 pps)
+  Output rate    : 1268704 bps (203 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/6.0 (Index 94) (SNMP ifIndex 612)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 45204107
+    Output packets: 32552962
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/7, Enabled, Physical link is Up
+  Interface index: 222, SNMP ifIndex: 556
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:8a, Hardware address: 84:b5:9c:37:15:8a
+  Last flapped   : 2019-11-19 13:18:34 UTC (56w0d 03:22 ago)
+  Input rate     : 806560 bps (220 pps)
+  Output rate    : 20595384 bps (444 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/7.0 (Index 97) (SNMP ifIndex 557)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 187854
+    Output packets: 32555910
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/8, Enabled, Physical link is Up
+  Interface index: 221, SNMP ifIndex: 617
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:8b, Hardware address: 84:b5:9c:37:15:8b
+  Last flapped   : 2019-08-17 19:28:57 UTC (69w2d 21:11 ago)
+  Input rate     : 413451808 bps (39289 pps)
+  Output rate    : 17287448 bps (7916 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/8.0 (Index 96) (SNMP ifIndex 619)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 20828376
+    Output packets: 32552303
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/9, Enabled, Physical link is Up
+  Interface index: 220, SNMP ifIndex: 642
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:8c, Hardware address: 84:b5:9c:37:15:8c
+  Last flapped   : 2019-11-12 11:32:52 UTC (57w0d 05:07 ago)
+  Input rate     : 13575736 bps (1941 pps)
+  Output rate    : 4241080 bps (1678 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/9.0 (Index 124) (SNMP ifIndex 643)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 119757508
+    Output packets: 34126031
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/10, Enabled, Physical link is Up
+  Interface index: 239, SNMP ifIndex: 638
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:8d, Hardware address: 84:b5:9c:37:15:8d
+  Last flapped   : 2019-10-29 17:31:26 UTC (58w6d 23:09 ago)
+  Input rate     : 22559128 bps (2529 pps)
+  Output rate    : 7431328 bps (1803 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/10.0 (Index 125) (SNMP ifIndex 639)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 32833562
+    Output packets: 44267299
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/11, Enabled, Physical link is Up
+  Interface index: 240, SNMP ifIndex: 658
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:8e, Hardware address: 84:b5:9c:37:15:8e
+  Last flapped   : 2019-11-06 19:55:05 UTC (57w5d 20:45 ago)
+  Input rate     : 436920 bps (10 pps)
+  Output rate    : 53928 bps (76 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/11.0 (Index 126) (SNMP ifIndex 659)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 244189
+    Output packets: 32555505
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/12, Enabled, Physical link is Up
+  Interface index: 241, SNMP ifIndex: 682
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:8f, Hardware address: 84:b5:9c:37:15:8f
+  Last flapped   : 2020-11-14 12:32:04 UTC (4w3d 04:08 ago)
+  Input rate     : 14481048 bps (1761 pps)
+  Output rate    : 14193320 bps (1278 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/12.0 (Index 127) (SNMP ifIndex 683)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 167652201
+    Output packets: 36390677
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/24, Enabled, Physical link is Up
+  Interface index: 181, SNMP ifIndex: 664
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:9b, Hardware address: 84:b5:9c:37:15:9b
+  Last flapped   : 2020-09-19 18:14:07 UTC (12w2d 22:26 ago)
+  Input rate     : 52815944 bps (5507 pps)
+  Output rate    : 97553648 bps (8183 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/24.0 (Index 82) (SNMP ifIndex 665)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1922718
+    Output packets: 32571311
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/25, Enabled, Physical link is Up
+  Interface index: 200, SNMP ifIndex: 668
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:9c, Hardware address: 84:b5:9c:37:15:9c
+  Last flapped   : 2020-10-10 18:13:04 UTC (9w2d 22:27 ago)
+  Input rate     : 140608592 bps (13315 pps)
+  Output rate    : 101004672 bps (6921 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/25.0 (Index 111) (SNMP ifIndex 669)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1922680
+    Output packets: 32559189
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-1/0/26, Enabled, Physical link is Up
+  Interface index: 199, SNMP ifIndex: 666
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 84:b5:9c:37:15:9d, Hardware address: 84:b5:9c:37:15:9d
+  Last flapped   : 2019-08-17 19:53:01 UTC (69w2d 20:47 ago)
+  Input rate     : 1104936 bps (503 pps)
+  Output rate    : 39236808 bps (935 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/26.0 (Index 118) (SNMP ifIndex 667)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 6306
+    Output packets: 32558838
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/1, Enabled, Physical link is Up
+  Interface index: 235, SNMP ifIndex: 565
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:44, Hardware address: 3c:61:04:e9:39:44
+  Last flapped   : 2020-12-06 10:42:11 UTC (1w2d 05:58 ago)
+  Input rate     : 1736744 bps (69 pps)
+  Output rate    : 128952 bps (169 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/1.0 (Index 86) (SNMP ifIndex 576)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 45309498
+    Output packets: 32557688
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/2, Enabled, Physical link is Up
+  Interface index: 236, SNMP ifIndex: 558
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:45, Hardware address: 3c:61:04:e9:39:45
+  Last flapped   : 2019-11-11 13:15:27 UTC (57w1d 03:25 ago)
+  Input rate     : 763848 bps (101 pps)
+  Output rate    : 8046936 bps (256 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/2.0 (Index 91) (SNMP ifIndex 577)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 143769
+    Output packets: 32556925
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/3, Enabled, Physical link is Up
+  Interface index: 237, SNMP ifIndex: 562
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:46, Hardware address: 3c:61:04:e9:39:46
+  Last flapped   : 2019-11-03 21:23:18 UTC (58w1d 19:17 ago)
+  Input rate     : 536048 bps (15 pps)
+  Output rate    : 77424 bps (114 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/3.0 (Index 92) (SNMP ifIndex 578)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 40294003
+    Output packets: 32558315
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/4, Enabled, Physical link is Up
+  Interface index: 238, SNMP ifIndex: 636
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:47, Hardware address: 3c:61:04:e9:39:47
+  Last flapped   : 2019-11-15 11:29:29 UTC (56w4d 05:11 ago)
+  Input rate     : 47977448 bps (5392 pps)
+  Output rate    : 11835968 bps (3014 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/4.0 (Index 93) (SNMP ifIndex 637)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 243798926
+    Output packets: 37540302
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/5, Enabled, Physical link is Up
+  Interface index: 234, SNMP ifIndex: 640
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:48, Hardware address: 3c:61:04:e9:39:48
+  Last flapped   : 2019-11-28 11:41:45 UTC (54w5d 04:59 ago)
+  Input rate     : 3463640 bps (203 pps)
+  Output rate    : 15564360 bps (452 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/5.0 (Index 99) (SNMP ifIndex 641)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 2008081
+    Output packets: 32552741
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/6, Enabled, Physical link is Up
+  Interface index: 233, SNMP ifIndex: 609
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:49, Hardware address: 3c:61:04:e9:39:49
+  Last flapped   : 2019-10-29 17:27:55 UTC (58w6d 23:12 ago)
+  Input rate     : 46136 bps (20 pps)
+  Output rate    : 77736 bps (119 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/6.0 (Index 98) (SNMP ifIndex 610)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 2232774
+    Output packets: 32552698
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/7, Enabled, Physical link is Up
+  Interface index: 232, SNMP ifIndex: 644
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:4a, Hardware address: 3c:61:04:e9:39:4a
+  Last flapped   : 2019-11-19 13:18:33 UTC (56w0d 03:22 ago)
+  Input rate     : 42909696 bps (5047 pps)
+  Output rate    : 13966784 bps (4061 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/7.0 (Index 107) (SNMP ifIndex 645)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 156550093
+    Output packets: 37778334
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/8, Enabled, Physical link is Up
+  Interface index: 231, SNMP ifIndex: 553
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:4b, Hardware address: 3c:61:04:e9:39:4b
+  Last flapped   : 2019-08-17 19:28:58 UTC (69w2d 21:11 ago)
+  Input rate     : 1479136 bps (70 pps)
+  Output rate    : 1632696 bps (177 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/8.0 (Index 105) (SNMP ifIndex 580)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 3708739
+    Output packets: 32552228
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/9, Enabled, Physical link is Up
+  Interface index: 242, SNMP ifIndex: 646
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:4c, Hardware address: 3c:61:04:e9:39:4c
+  Last flapped   : 2019-11-12 11:32:52 UTC (57w0d 05:07 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 69480 bps (108 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/9.0 (Index 128) (SNMP ifIndex 647)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 60998
+    Output packets: 32554809
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/10, Enabled, Physical link is Up
+  Interface index: 243, SNMP ifIndex: 554
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:4d, Hardware address: 3c:61:04:e9:39:4d
+  Last flapped   : 2019-08-21 21:00:27 UTC (68w5d 19:40 ago)
+  Input rate     : 535608 bps (15 pps)
+  Output rate    : 74808 bps (117 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/10.0 (Index 129) (SNMP ifIndex 579)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 40185933
+    Output packets: 32546712
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/11, Enabled, Physical link is Up
+  Interface index: 244, SNMP ifIndex: 574
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:4e, Hardware address: 3c:61:04:e9:39:4e
+  Last flapped   : 2019-11-06 19:55:03 UTC (57w5d 20:45 ago)
+  Input rate     : 49436040 bps (8363 pps)
+  Output rate    : 140971824 bps (14076 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/11.0 (Index 130) (SNMP ifIndex 581)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 97262487
+    Output packets: 44483603
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/12, Enabled, Physical link is Up
+  Interface index: 245, SNMP ifIndex: 570
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:4f, Hardware address: 3c:61:04:e9:39:4f
+  Last flapped   : 2020-11-14 12:32:02 UTC (4w3d 04:08 ago)
+  Input rate     : 1012776 bps (75 pps)
+  Output rate    : 2763952 bps (198 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/12.0 (Index 131) (SNMP ifIndex 588)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 75347
+    Output packets: 32555001
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/16, Enabled, Physical link is Up
+  Interface index: 133, SNMP ifIndex: 539
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:53, Hardware address: 3c:61:04:e9:39:53
+  Last flapped   : 2019-02-16 21:20:08 UTC (95w2d 19:20 ago)
+  Input rate     : 1540784 bps (319 pps)
+  Output rate    : 401432 bps (266 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/16.0 (Index 79) (SNMP ifIndex 591)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 199408285
+    Output packets: 2245163
+    Protocol eth-switch
+      Flags: Is-Primary, Trunk-Mode
+
+Physical interface: xe-2/0/24, Enabled, Physical link is Up
+  Interface index: 197, SNMP ifIndex: 540
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:5b, Hardware address: 3c:61:04:e9:39:5b
+  Last flapped   : 2020-10-10 18:12:57 UTC (9w2d 22:27 ago)
+  Input rate     : 60773864 bps (12134 pps)
+  Output rate    : 299820544 bps (22221 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/24.0 (Index 117) (SNMP ifIndex 602)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1922688
+    Output packets: 32559501
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/25, Enabled, Physical link is Up
+  Interface index: 194, SNMP ifIndex: 548
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:5c, Hardware address: 3c:61:04:e9:39:5c
+  Last flapped   : 2020-09-19 18:14:10 UTC (12w2d 22:26 ago)
+  Input rate     : 40037088 bps (4879 pps)
+  Output rate    : 95678264 bps (6875 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/25.0 (Index 80) (SNMP ifIndex 603)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1922683
+    Output packets: 32598651
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-2/0/26, Enabled, Physical link is Up
+  Interface index: 219, SNMP ifIndex: 561
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 3c:61:04:e9:39:5d, Hardware address: 3c:61:04:e9:39:5d
+  Last flapped   : 2019-10-29 15:17:01 UTC (59w0d 01:23 ago)
+  Input rate     : 4256 bps (6 pps)
+  Output rate    : 131304 bps (140 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-2/0/26.0 (Index 123) (SNMP ifIndex 604)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 6349
+    Output packets: 32559071
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/1, Enabled, Physical link is Up
+  Interface index: 254, SNMP ifIndex: 650
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:c4, Hardware address: 44:aa:50:2e:ab:c4
+  Last flapped   : 2020-08-01 08:54:08 UTC (19w3d 07:46 ago)
+  Input rate     : 604696 bps (192 pps)
+  Output rate    : 907824 bps (259 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/1.0 (Index 78) (SNMP ifIndex 651)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 28669753
+    Output packets: 20221283
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/2, Enabled, Physical link is Up
+  Interface index: 255, SNMP ifIndex: 652
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:c5, Hardware address: 44:aa:50:2e:ab:c5
+  Last flapped   : 2020-08-01 08:02:36 UTC (19w3d 08:38 ago)
+  Input rate     : 36750536 bps (922 pps)
+  Output rate    : 1999016 bps (670 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/2.0 (Index 88) (SNMP ifIndex 653)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 31311852
+    Output packets: 20219485
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/3, Enabled, Physical link is Up
+  Interface index: 249, SNMP ifIndex: 654
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:c6, Hardware address: 44:aa:50:2e:ab:c6
+  Last flapped   : 2019-10-29 16:45:21 UTC (58w6d 23:55 ago)
+  Input rate     : 678744 bps (255 pps)
+  Output rate    : 1239304 bps (385 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/3.0 (Index 109) (SNMP ifIndex 655)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 23373536
+    Output packets: 32550285
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/4, Enabled, Physical link is Up
+  Interface index: 248, SNMP ifIndex: 656
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:c7, Hardware address: 44:aa:50:2e:ab:c7
+  Last flapped   : 2019-10-29 16:47:40 UTC (58w6d 23:53 ago)
+  Input rate     : 116880 bps (42 pps)
+  Output rate    : 98960 bps (135 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/4.0 (Index 106) (SNMP ifIndex 657)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 5927542
+    Output packets: 32550404
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/5, Enabled, Physical link is Up
+  Interface index: 178, SNMP ifIndex: 660
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:c8, Hardware address: 44:aa:50:2e:ab:c8
+  Last flapped   : 2019-10-29 16:48:55 UTC (58w6d 23:51 ago)
+  Input rate     : 7089248 bps (225 pps)
+  Output rate    : 798256 bps (330 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/5.0 (Index 112) (SNMP ifIndex 661)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 19097716
+    Output packets: 32553026
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/6, Enabled, Physical link is Up
+  Interface index: 180, SNMP ifIndex: 662
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:c9, Hardware address: 44:aa:50:2e:ab:c9
+  Last flapped   : 2020-11-13 12:39:38 UTC (4w4d 04:01 ago)
+  Input rate     : 1846888 bps (183 pps)
+  Output rate    : 937488 bps (475 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/6.0 (Index 114) (SNMP ifIndex 663)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 68249232
+    Output packets: 32554215
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/7, Enabled, Physical link is Up
+  Interface index: 185, SNMP ifIndex: 670
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:ca, Hardware address: 44:aa:50:2e:ab:ca
+  Last flapped   : 2020-11-12 20:59:14 UTC (4w4d 19:41 ago)
+  Input rate     : 64175248 bps (3195 pps)
+  Output rate    : 66084880 bps (6870 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/7.0 (Index 116) (SNMP ifIndex 671)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 17067577
+    Output packets: 32553913
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/8, Enabled, Physical link is Up
+  Interface index: 187, SNMP ifIndex: 672
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:cb, Hardware address: 44:aa:50:2e:ab:cb
+  Last flapped   : 2020-11-12 19:27:44 UTC (4w4d 21:13 ago)
+  Input rate     : 1587032 bps (97 pps)
+  Output rate    : 159064 bps (208 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/8.0 (Index 84) (SNMP ifIndex 673)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 2546785
+    Output packets: 32552875
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/9, Enabled, Physical link is Up
+  Interface index: 191, SNMP ifIndex: 674
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:cc, Hardware address: 44:aa:50:2e:ab:cc
+  Last flapped   : 2020-11-12 18:38:46 UTC (4w4d 22:02 ago)
+  Input rate     : 353848832 bps (37449 pps)
+  Output rate    : 178730160 bps (26674 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/9.0 (Index 120) (SNMP ifIndex 675)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 37208294
+    Output packets: 32553315
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/10, Enabled, Physical link is Up
+  Interface index: 251, SNMP ifIndex: 685
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:cd, Hardware address: 44:aa:50:2e:ab:cd
+  Last flapped   : 2019-08-17 19:53:46 UTC (69w2d 20:47 ago)
+  Input rate     : 3304 bps (3 pps)
+  Output rate    : 74840 bps (112 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/10.0 (Index 134) (SNMP ifIndex 686)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 6465
+    Output packets: 24620276
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/0/11, Enabled, Physical link is Up
+  Interface index: 193, SNMP ifIndex: 676
+  Link-level type: Ethernet, MTU: 9216, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled, Media type: Fiber
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:ce, Hardware address: 44:aa:50:2e:ab:ce
+  Last flapped   : 2020-11-12 16:19:36 UTC (4w5d 00:21 ago)
+  Input rate     : 117452736 bps (5816 pps)
+  Output rate    : 61971608 bps (8100 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/0/11.0 (Index 121) (SNMP ifIndex 677)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 37518320
+    Output packets: 32553509
+    Protocol eth-switch
+      Flags: Trunk-Mode
+
+Physical interface: xe-3/1/0, Enabled, Physical link is Up
+  Interface index: 261, SNMP ifIndex: 693
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:e3, Hardware address: 44:aa:50:2e:ab:e3
+  Last flapped   : 2020-12-15 12:27:58 UTC (04:12:51 ago)
+  Input rate     : 58400 bps (99 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-3/1/0.0 (Index 104) (SNMP ifIndex 697)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 7357
+    Output packets: 544
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: xe-3/1/1, Enabled, Physical link is Up
+  Interface index: 262, SNMP ifIndex: 694
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:e4, Hardware address: 44:aa:50:2e:ab:e4
+  Last flapped   : 2020-12-15 12:27:59 UTC (04:12:50 ago)
+  Input rate     : 58912 bps (100 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-3/1/2, Enabled, Physical link is Up
+  Interface index: 263, SNMP ifIndex: 695
+  Link-level type: Ethernet, MTU: 1514, MRU: 0, Speed: 10Gbps, Duplex: Full-Duplex, BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Current address: 44:aa:50:2e:ab:e5, Hardware address: 44:aa:50:2e:ab:e5
+  Last flapped   : 2020-12-15 12:27:59 UTC (04:12:50 ago)
+  Input rate     : 58912 bps (100 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+Physical interface: bme0, Enabled, Physical link is Up
+  Interface index: 65, SNMP ifIndex: 37
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1576
+  Device flags   : Present Running
+  Link flags     : None
+  Current address: 00:0b:ca:fe:00:00, Hardware address: 00:0b:ca:fe:00:00
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 4306897682
+
+  Logical interface bme0.32768 (Index 8) (SNMP ifIndex 38)
+    Flags: Encapsulation: ENET2
+    Input packets : 4639663299
+    Output packets: 3619437862
+    Protocol inet, MTU: 1562
+      Flags: Is-Primary
+      Addresses, Flags: Primary Preferred Is-Default Is-Preferred Is-Primary
+        Destination: 128/2, Local: 128.0.0.1, Broadcast: 191.255.255.255
+      Addresses, Flags: Primary
+        Destination: 128/2, Local: 128.0.0.16, Broadcast: 191.255.255.255
+      Addresses
+        Destination: 128/2, Local: 128.0.0.32, Broadcast: 191.255.255.255
+    Protocol tnp, MTU: 1562
+      Flags: Is-Primary
+      Addresses, Flags: Primary
+        Local: 0x10
+
+  Logical interface bme0.32770 (Index 3) (SNMP ifIndex 40)
+    Flags: Down
+Down 0x0 LinkAddress 0-0 Encapsulation: unknown
+    Input packets : 0
+    Output packets: 0
+    Protocol eth-switch
+      Flags: Is-Primary
+
+  Logical interface bme0.32771 (Index 11) (SNMP ifIndex 41)
+    Flags: Down
+Down 0x0 LinkAddress 0-0 Encapsulation: unknown
+    Input packets : 0
+    Output packets: 0
+    Protocol eth-switch
+      Flags: None
+
+  Logical interface bme0.32772 (Index 12) (SNMP ifIndex 42)
+    Flags: Down
+Down 0x0 LinkAddress 0-0 Encapsulation: unknown
+    Input packets : 0
+    Output packets: 0
+    Protocol eth-switch
+      Flags: None
+
+Physical interface: dsc, Enabled, Physical link is Up
+  Interface index: 5, SNMP ifIndex: 5
+  Type: Software-Pseudo, MTU: Unlimited
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: gre, Enabled, Physical link is Up
+  Interface index: 10, SNMP ifIndex: 8
+  Type: GRE, Link-level type: GRE, MTU: Unlimited, Speed: Unlimited
+  Current address: Unspecified, Hardware address: Unspecified
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: ipip, Enabled, Physical link is Up
+  Interface index: 11, SNMP ifIndex: 9
+  Type: IPIP, Link-level type: IP-over-IP, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: jsrv, Enabled, Physical link is Up
+  Interface index: 128, SNMP ifIndex: 501
+  Type: VLAN, Link-level type: VLAN, MTU: 1518, Speed: 1000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+  Current address: 44:aa:50:2e:bd:40, Hardware address: 44:aa:50:2e:bd:40
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface jsrv.1 (Index 69) (SNMP ifIndex 502)
+    Flags: Up 0x0 Encapsulation: unknown
+    Input packets : 0
+    Output packets: 1
+    Protocol inet, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Primary Is-Default Is-Preferred Is-Primary
+        Destination: 128/2, Local: 128.0.0.127, Broadcast: 191.255.255.255
+
+Physical interface: lo0, Enabled, Physical link is Up
+  Interface index: 6, SNMP ifIndex: 6
+  Type: Loopback, MTU: Unlimited
+  Device flags   : Present Running Loopback
+  Interface flags: SNMP-Traps
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 1631579817
+    Output packets: 1631579817
+
+  Logical interface lo0.16384 (Index 64) (SNMP ifIndex 21)
+    Flags: Encapsulation: Unspecified
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+      Addresses, Flags: Primary
+        Local: 127.0.0.1
+
+Physical interface: lsi, Enabled, Physical link is Up
+  Interface index: 4, SNMP ifIndex: 4
+  Type: Software-Pseudo, Link-level type: LSI, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: me0, Enabled, Physical link is Up
+  Interface index: 64, SNMP ifIndex: 33
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link type      : Full-Duplex
+  Current address: 44:aa:50:2e:bd:7d, Hardware address: 44:aa:50:2e:bd:7d
+  Last flapped   : 2020-09-28 11:14:02 UTC (11w1d 05:26 ago)
+    Input packets : 2082434931
+    Output packets: 11855039
+
+  Logical interface me0.0 (Index 9) (SNMP ifIndex 34)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 2082434942
+    Output packets: 11855039
+    Protocol inet, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 192.168.4/23, Local: 192.168.4.248, Broadcast: 192.168.5.255
+
+Physical interface: mtun, Enabled, Physical link is Up
+  Interface index: 66, SNMP ifIndex: 12
+  Type: Multicast-GRE, Link-level type: GRE, MTU: Unlimited, Speed: Unlimited
+  Current address: Unspecified, Hardware address: Unspecified
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: pimd, Enabled, Physical link is Up
+  Interface index: 26, SNMP ifIndex: 11
+  Type: PIMD, Link-level type: PIM-Decapsulator, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: pime, Enabled, Physical link is Up
+  Interface index: 25, SNMP ifIndex: 10
+  Type: PIME, Link-level type: PIM-Encapsulator, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: tap, Enabled, Physical link is Up
+  Interface index: 12, SNMP ifIndex: 7
+  Type: Software-Pseudo, Link-level type: Interface-Specific, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: vlan, Enabled, Physical link is Up
+  Interface index: 129, SNMP ifIndex: 503
+  Type: VLAN, Link-level type: VLAN, MTU: 1518, Speed: 1000mbps
+  Device flags   : Present Running
+  Link type      : Full-Duplex
+  Link flags     : None
+  Current address: 44:aa:50:2e:bd:41, Hardware address: 44:aa:50:2e:bd:41
+  Last flapped   : Never
+    Input packets : 1831339228
+    Output packets: 15317360
+
+  Logical interface vlan.0 (Index 70) (SNMP ifIndex 522)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 4524065
+    Output packets: 3725
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 10.10.1/24, Local: 10.10.1.248, Broadcast: 10.10.1.255
+
+  Logical interface vlan.1 (Index 71) (SNMP ifIndex 545)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1260908
+    Output packets: 3724
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 10.10.30/24, Local: 10.10.30.248, Broadcast: 10.10.30.255
+
+  Logical interface vlan.2 (Index 72) (SNMP ifIndex 546)
+    Flags: Up Link-Layer-Down SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 6628302
+    Output packets: 193
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Dest-route-down Is-Preferred Is-Primary
+        Destination: 192.168.2/24, Local: 192.168.2.248, Broadcast: 192.168.2.255
+
+  Logical interface vlan.4 (Index 73) (SNMP ifIndex 555)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1772
+    Output packets: 3757
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 192.168.4/23, Local: 192.168.5.252, Broadcast: 192.168.5.255
+
+  Logical interface vlan.6 (Index 74) (SNMP ifIndex 504)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 1818357258
+    Output packets: 15298624
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 192.168.4/23, Local: 192.168.4.240, Broadcast: 192.168.5.255
+
+  Logical interface vlan.20 (Index 75) (SNMP ifIndex 618)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 500532
+    Output packets: 3723
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 10.10.10/24, Local: 10.10.10.248, Broadcast: 10.10.10.255
+
+  Logical interface vlan.777 (Index 76) (SNMP ifIndex 544)
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    Input packets : 66391
+    Output packets: 3727
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 10.4.4/24, Local: 10.4.4.248, Broadcast: 10.4.4.255
+
+Physical interface: vme, Enabled, Physical link is Down
+  Interface index: 71, SNMP ifIndex: 35
+  Type: Mgmt-VLAN, Link-level type: Mgmt-VLAN, MTU: 1518, Speed: 1000mbps
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+  Current address: 44:aa:50:2e:bd:42, Hardware address: 44:aa:50:2e:bd:42
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
